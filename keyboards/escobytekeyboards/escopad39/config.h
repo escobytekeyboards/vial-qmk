@@ -3,22 +3,5 @@
 
 #pragma once
 
-/*
- * Feature disable options
- *  These options are also useful to firmware size reduction.
- */
-
-/* disable debug print */
-//#define NO_DEBUG
-
-/* disable print */
-//#define NO_PRINT
-
-/* disable action features */
-//#define NO_ACTION_LAYER
-//#define NO_ACTION_TAPPING
-//#define NO_ACTION_ONESHOT
-
-#define ENCODERS_PAD_A { GP15 }
-#define ENCODERS_PAD_B { GP26 }
-#define TAPPING_TOGGLE 2
+#define ENCODERS_PAD_A { GP15, GP26 }
+#define TAPPING_TOGGLE 3
