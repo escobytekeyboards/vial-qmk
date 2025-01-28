@@ -7,7 +7,7 @@ Comes pre-flashed with default layout. Easily re-program using VIAL.
 
 * Keyboard Maintainer: [Escobyte Keyboards](https://github.com/escobytekeyboards)
 * Hardware Supported: RP2040 Zero
-* Hardware Availability: www.escobytekeyboards.com
+* Hardware Availability: [www.escobytekeyboards.com/product/palette](https://www.escobytekeyboards.com/product/palette)
 
 
 Features:
@@ -30,8 +30,7 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 ## Bootloader
 
-Enter the bootloader in 3 ways:
+Enter the bootloader 2 ways:
 
-* **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
-* **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
-* **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
+* **Physical reset button**: Hold the 'BOOT' button down while plugging in the device. Note: the switches and switchplate must first be removed to access the button on the RP2040 MCU.
+* **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available. (Not mapped by default)
