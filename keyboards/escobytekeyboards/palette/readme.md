@@ -21,11 +21,11 @@ Features:
 
 Make example for this keyboard (after setting up your build environment):
 
-    make escobytekeyboards/palette:default
+    make escobytekeyboards/palette:vial
 
 Flashing example for this keyboard:
 
-    make escobytekeyboards/palette:default:flash
+    make escobytekeyboards/palette:vial:flash
 
 ## Bootloader
 
